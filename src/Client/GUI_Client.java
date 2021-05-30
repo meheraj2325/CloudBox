@@ -33,7 +33,7 @@ public class GUI_Client extends Application{
     public static void main(String []args) throws IOException{
 
         try {
-            client=new Socket("localhost", 4444);
+            client=new Socket("localhost", 3214);
             bufferedReaderClientInputStream = new BufferedReader(new InputStreamReader(client.getInputStream()));
             printWriterClientOutputStream = new PrintWriter(client.getOutputStream());
         }

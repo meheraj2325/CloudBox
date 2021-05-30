@@ -10,7 +10,7 @@ class ServerThread extends Thread{
     PrintWriter printWriterClientOutputStream = null;
     Socket client=null;
     ReadFilesFromFolder readFilesFromFolder =  new ReadFilesFromFolder();
-    String path = "C:/Users/user/Downloads";
+    String path = "C:/Users/meher/Documents";
 
     public ServerThread(Socket s){
         client=s;

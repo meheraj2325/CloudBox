@@ -10,10 +10,10 @@ public class CloudBoxServer {
     public static void main(String args[]){
 
         Socket client = null;
-        ServerSocket server = null;
+        ServerSocket server=null;
         System.out.println("Server Listening......");
         try{
-            server = new ServerSocket(4444);
+            server = new ServerSocket(3214);
         }
         catch(IOException e){
             e.printStackTrace();
